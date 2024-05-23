@@ -1,0 +1,7 @@
+1) Multithreading - In a program if we want to execute parts of program simultaneously, this is possible using multithreading. parts of program are called threads.
+
+2) Mutex - (mutual exclusion), which used to not to share shared data(like variables) to multiple threads at a same time.
+
+3) Race condition - when multiple threads try to access (or) change same shared data simultaneously, at that time multiple threads are racing to access or change same data, this condition is called race condition.
+
+4) atomic-header - in case of multithreaded programs, multiple threads tries to access same data which causes race conditions (or) unpredictable behaviour, at that case if we want to share same data to multiple threads without conflicts <atomic> has provided one mechanism called atomic operations which allows shared data(like variables) to multiple threads in safe manner.
